@@ -31,7 +31,6 @@ public class MutantManagerImpl implements MutantManager {
 	}
 	
 	
-
 	@Override
 	public boolean isMutant(String[] dna) throws DnaException, RepositoryException {
 		boolean isMutant = false;
