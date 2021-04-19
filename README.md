@@ -54,12 +54,45 @@ _Se realiza la correpondiente documentación de la API, apoyandonos en la implem
 ![Visualización general de la documentación](https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation.png)
 
 
+
+[Servicio para detectar mutantes](https://mutant-detector-service.herokuapp.com/mutant)
+: ( https://mutant-detector-service.herokuapp.com/mutant )
+
+
+![Visualización general de la documentación]https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_mutant.png)
+
+
+
+[Servicio para obtener las estadísticas](https://mutant-detector-service.herokuapp.com/stats)
+: ( https://mutant-detector-service.herokuapp.com/stats )
+
+
+![Visualización general de la documentación]https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_stats.png)
+
+
 --------
 # Ejemplos API.
+
+
+#### _Servicio: /mutant_
+1) Request: [TYPE POST; HEADER Content-Type: application/json]
+
+   {"dna": ["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]}
+		
+2) Response: 200 - OK
+
+
+#### _Servicio: /mutant_
+1) Request: [TYPE GET]
+
+   {"count_mutant_dna": 2, "count_human_dna": 2,"ratio": 1}
+		
+2) Response: 200 - OK
 
 
 --------
 # Code Coverage.
 
+![Code coverage]https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/code_coverage.png)
 
 --------
