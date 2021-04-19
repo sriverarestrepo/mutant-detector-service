@@ -10,4 +10,13 @@ class MutantApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	public void main() {
+		MutantApplication.main(getArgs());
+	}
+
+	private String[] getArgs() {
+		String[] args = {};
+		return args;
+	}
 }
