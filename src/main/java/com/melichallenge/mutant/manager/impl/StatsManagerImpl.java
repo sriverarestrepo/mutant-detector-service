@@ -25,7 +25,7 @@ public class StatsManagerImpl implements StatsManager{
 			mutant_dna_list = dnaPersonRepository.findByIsMutant(true);
 			human_dna_list = dnaPersonRepository.findByIsMutant(false);
 		} catch (Exception e) {
-			throw new RepositoryException("Failed to get records from Person table " + e);
+			throw new RepositoryException("Failed to get records from Person table");
 		}
 		
 		return new Stats(mutant_dna_list.size(), human_dna_list.size());

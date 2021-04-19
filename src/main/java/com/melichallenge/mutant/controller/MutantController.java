@@ -33,7 +33,6 @@ public class MutantController {
 		try {
 			response = mutantService.isMutant(dna);
 		} catch (DnaException | RepositoryException e) {
-			System.out.println("error-" + e.getMessage());
 			response = new ResponseEntity<>(HttpStatus.FORBIDDEN);
 		}
 		return response;
