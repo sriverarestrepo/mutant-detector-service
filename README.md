@@ -59,7 +59,7 @@ _Se realiza la correpondiente documentación de la API, apoyandonos en la implem
 : ( https://mutant-detector-service.herokuapp.com/mutant )
 
 
-![Visualización general de la documentación]https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_mutant.png)
+![Visualización general de la documentación](https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_mutant.png)
 
 
 
@@ -67,7 +67,7 @@ _Se realiza la correpondiente documentación de la API, apoyandonos en la implem
 : ( https://mutant-detector-service.herokuapp.com/stats )
 
 
-![Visualización general de la documentación]https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_stats.png)
+![Visualización general de la documentación](https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_stats.png)
 
 
 --------
@@ -93,6 +93,6 @@ _Se realiza la correpondiente documentación de la API, apoyandonos en la implem
 --------
 # Code Coverage.
 
-![Code coverage]https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/code_coverage.png)
+![Code coverage](https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/code_coverage.png)
 
 --------
