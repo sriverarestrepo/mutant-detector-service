@@ -48,27 +48,25 @@ _Se realiza la correpondiente documentación de la API, apoyandonos en la implem
 
 #### URL's
 
+------
 [Documentación API en Swagger](https://mutant-detector-service.herokuapp.com/swagger-ui.html#/)
 : ( https://mutant-detector-service.herokuapp.com/swagger-ui.html#/ )
 
 ![Visualización general de la documentación](https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation.png)
 
-
-
+------
 [Servicio para detectar mutantes](https://mutant-detector-service.herokuapp.com/mutant)
 : ( https://mutant-detector-service.herokuapp.com/mutant )
 
 
 ![Visualización general de la documentación](https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_mutant.png)
 
-
-
+------
 [Servicio para obtener las estadísticas](https://mutant-detector-service.herokuapp.com/stats)
 : ( https://mutant-detector-service.herokuapp.com/stats )
 
 
 ![Visualización general de la documentación](https://github.com/sriverarestrepo/mutant-detector-service/blob/master/documentation/api_documentation_stats.png)
-
 
 --------
 # Ejemplos API.
